@@ -26,4 +26,5 @@ class TowersOfHanoi extends React.Component {
     console.log(grabbedItem);
     console.log(selectedBlock);
     console.log(selectedBlock[selectedBlock.length - 1]);
-  
+  }
+}
