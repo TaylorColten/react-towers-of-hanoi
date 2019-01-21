@@ -14,4 +14,16 @@ class TowersOfHanoi extends React.Component {
     this.game = this.game.bind(this);
   }
 
+  game(event){
+    let stackLetter = event.target.getAttribute("data-stack");
+    let grabbedItem = this.state.grabbedBlock;
+    let selectedBlock = this.state[stackLetter];
+    let checkA = this.state.a;
+    let checkB = this.state.b;
+    let checkC = this.state.c;
+  
+    console.log(checkB.length);
+    console.log(grabbedItem);
+    console.log(selectedBlock);
+    console.log(selectedBlock[selectedBlock.length - 1]);
   
